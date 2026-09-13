@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import statistics
 
 # Measurements of water density (g/mL)
-measurements = [0.933, 0.977, 0.977, 0.982, 0.980]
+measurements = [0.9913, 0.9924, 0.9926, 0.9914, 0.9941]
 
 # Measurement numbers
 measurement_numbers = [1, 2, 3, 4, 5]
@@ -40,19 +40,19 @@ plt.axhline(
     y=average_density,
     linestyle="-",
     color="purple",
-    label=f"Average Density ({average_density:.3f} g/mL)"
+    label=f"Average Density ({average_density:.4f} g/mL)"
 )
 
 # Add labels and title
 plt.xlabel("Measurement")
 plt.ylabel("Density (g/mL)")
-plt.title("The Density of Water (20.1 °C) from a Graduate Cylinder")
+plt.title("The Density of Water (21.0 °C) from a Volumetric Pipette")
 
 # Show measurement numbers on the x-axis
 plt.xticks(measurement_numbers)
 
 # Set the y-axis range
-plt.ylim(0.00, 1.05)
+plt.ylim(0.98, 1.01)
 
 # Add a light grid
 plt.grid(axis="y", linestyle=":", alpha=0.5)
@@ -62,4 +62,3 @@ plt.legend()
 
 # Display the graph
 plt.show()
-
