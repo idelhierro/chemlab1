@@ -14,7 +14,7 @@ average_density = sum(measurements) / len(measurements)
 # Calculate the standard deviation
 standard_deviation = statistics.stdev(measurements)
 
-# Actual density of water at 20.1 °C (g/mL)
+# Actual density of water at 20.1°C (g/mL)
 actual_density = 0.998
 
 # Create the bar graph

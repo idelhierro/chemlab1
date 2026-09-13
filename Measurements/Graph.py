@@ -46,7 +46,7 @@ plt.axhline(
 # Add labels and title
 plt.xlabel("Measurement")
 plt.ylabel("Density (g/mL)")
-plt.title("The Density of Water (20.1 °C) from a Graduate Cylinder")
+plt.title("The Density of Water (20.1°C) from a Graduate Cylinder")
 
 # Show measurement numbers on the x-axis
 plt.xticks(measurement_numbers)

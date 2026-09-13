@@ -45,7 +45,7 @@ plt.title("The Density of a Penny")
 plt.xticks(measurement_numbers)
 
 # Set the y-axis range
-plt.ylim(0, 11)
+plt.ylim(0.00, 11)
 
 # Add a light grid
 plt.grid(axis="y", linestyle=":", alpha=0.5)
